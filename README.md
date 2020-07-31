@@ -22,7 +22,7 @@ investigate why only 5 managers
 
 ***compare the retiree population by title to the whole population to identify potential resource gaps and start addressing those now
 
-![Titles Retiring]()
+![Titles Retiring](https://github.com/TrentBrunson/Pewlett-Hackard-Analysis/blob/master/Titles_retiring.png)
 Table 1. Number of titles retiring
 
 Table 2. Number of employees with each title
