@@ -18,9 +18,9 @@ Used PostgreSQL to build a database and complete analysis for the required tasks
 
 Table 1. Number of titles retiring
 
-33,118 employees are retiring
+The request was to identify those born 1952-1955.  The cleaned data found that 33,118 employees are retiring.
 
-![Emp_by_title](https://github.com/TrentBrunson/Pewlett-Hackard-Analysis/blob/master/Titles_retiring.png)  
+![Emp_by_title](https://github.com/TrentBrunson/Pewlett-Hackard-Analysis/blob/master/Retiring_Emp.png)  
 Table 2. Number of employees with each title
 
 1,549 employees are eligible to participate in the mentorship program.
