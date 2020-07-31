@@ -24,28 +24,34 @@ SELECT re.emp_no,
 	ti.title,
 	ti.from_date,
 	ti.to_date,
-	s.salary	
-INTO retired
+	s.salary, re.birth_date	
+-- INTO retired1
 FROM emp_info as re
 	INNER JOIN titles as ti
 		ON (re.emp_no = ti.emp_no)
 	INNER JOIN salaries as s
 		ON (re.emp_no = s.emp_no)
 ;
-
---
+-- Retirement eligibility
+SELECT emp_no, first_name, last_name, gender
+INTO emp_info2
+FROM employees
+WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+;
+select * from emp_info2
+-- De-duplicate retiree eligble list
 SELECT emp_no,
 	first_name,
 	last_name,
 	title,
-	from_date
-INTO retire_deduped
+	from_date, salary
+-- INTO retire_deduped2
 FROM
 	(SELECT emp_no,
 	first_name,
 	last_name,
 	title,
- 	from_date, ROW_NUMBER() OVER
+ 	from_date, salary, ROW_NUMBER() OVER
 	(PARTITION BY (emp_no)
 	ORDER BY from_date DESC) rn
  	FROM retire
@@ -55,16 +61,20 @@ ORDER BY emp_no;
 --count total titles
 SELECT COUNT(DISTINCT title)
 INTO count_titles
-FROM retired;
+FROM retire_deduped;
+
 select * from count_titles;
+
 --count of employees set for retirement by title
 SELECT title,
     COUNT(emp_no)
 INTO emp_count_by_title
-FROM retired
+FROM retire_deduped2
 GROUP BY title;
 
-SELECT * FROM retire_deduped;
+select * from emp_count_by_title;
+
+SELECT * FROM retire_deduped2;
 
 SELECT e.emp_no, e.first_name, e.last_name, t.title, t.from_date, t.to_date
 INTO mentorship
@@ -80,4 +90,4 @@ GROUP BY emp_no
 HAVING count(*) > 1;
 -- 0 dupes found; change HAVING equal to 1 also verified same # of rows as mentorship table
 
-SELECT * FROM mentorship;
+SELECT * FROM retire_deduped2;
