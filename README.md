@@ -26,7 +26,7 @@ Adiitionally, another table was requested to show the list of employees eligible
 Table 2. Number of employees with each title
 
 Lastly, a new table was requested that contained employee number, first and last name, title, from_date and to_date in order to find mentor eligible employees.  Mentor eligible was defined as those born in 1965.  With this constraint, the query returned
-1,549 employees are eligible to participate in the mentorship program.
+1,549 employees eligible to participate in the mentorship program.
 
 ![Mentors](https://github.com/TrentBrunson/Pewlett-Hackard-Analysis/blob/master/Mentorship.png)  
 Table 3. Mentorship eligible employees.  (List of current employees born in 1965)
