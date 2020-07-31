@@ -26,7 +26,11 @@ investigate why only 5 managers
 
 Table 1. Number of titles retiring
 
+33,118 employees are retiring
+
 Table 2. Number of employees with each title
+
+1,549 employees are eligible to participate in the mentorship program.
 
 Table 3. Mentorship eligible employees.  (List of current employees born between Jan 1, 1952 and Dec 31, 1955)
 
