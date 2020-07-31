@@ -7,6 +7,7 @@
 one recommendation for further analysis
 which roles are priority fill
 investigate why only 5 managers
+
 ***compare the retiree population by title to the whole population to identify potential resource gaps and start addressing those now
 
 Table 1. Number of titles retiring
