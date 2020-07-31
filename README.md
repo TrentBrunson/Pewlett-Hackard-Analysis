@@ -7,6 +7,10 @@
 Used PostgreSQL to build a database and complete analysis for the required tasks.  In Preparation for this, I create an Entity Relationship Diagram with Quick Database Diagrams (https://app.quickdatabasediagrams.com)
 
 ![EmployeeDB](https://github.com/TrentBrunson/Pewlett-Hackard-Analysis/blob/master/EmployeeDB.png)
+
+### Summary
+
+
 ######
 
 ###### # individuals retiring
@@ -18,6 +22,7 @@ investigate why only 5 managers
 
 ***compare the retiree population by title to the whole population to identify potential resource gaps and start addressing those now
 
+![Titles Retiring]()
 Table 1. Number of titles retiring
 
 Table 2. Number of employees with each title
