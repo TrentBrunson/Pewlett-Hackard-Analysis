@@ -1,5 +1,13 @@
 # Pewlett-Hackard-Analysis
 ------
+### Project Overview
+###### Pewlett-Hackard is facing a potential silver-tsunami and wants to proactively manage resources.  They want to identify roles that are retiring and identify resources for a part-time (consultant) mentorship program to develop the next generation of leaders in the enterprise.
+
+### Resources
+Used PostgreSQL to build a database and complete analysis for the required tasks.  In Preparation for this, I create an Entity Relationship Diagram with Quick Database Diagrams (https://app.quickdatabasediagrams.com)
+
+![EmployeeDB](https://github.com/TrentBrunson/Pewlett-Hackard-Analysis/blob/master/EmployeeDB.png)
+######
 
 ###### # individuals retiring
 ###### # available for mentorship role
