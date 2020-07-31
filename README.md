@@ -23,9 +23,10 @@ The request was to identify those born 1952-1955.  The cleaned data found that 3
 ![Emp_by_title](https://github.com/TrentBrunson/Pewlett-Hackard-Analysis/blob/master/Retiring_Emp.png)  
 Table 2. Number of employees with each title
 
+Lastly, a new table was requested that contained employee number, first and last name, title, from_date and to_date in order to find mentor eligible employees.  This query found
 1,549 employees are eligible to participate in the mentorship program.
 
-![Mentors]()  
+![Mentors](https://github.com/TrentBrunson/Pewlett-Hackard-Analysis/blob/master/Mentorship.png)  
 Table 3. Mentorship eligible employees.  (List of current employees born between Jan 1, 1952 and Dec 31, 1955)
 
 ---
