@@ -20,8 +20,6 @@ one recommendation for further analysis
 which roles are priority fill
 investigate why only 5 managers
 
-***compare the retiree population by title to the whole population to identify potential resource gaps and start addressing those now
-
 ![Titles Retiring](https://github.com/TrentBrunson/Pewlett-Hackard-Analysis/blob/master/Titles_retiring.png)
 
 Table 1. Number of titles retiring
@@ -33,4 +31,9 @@ Table 2. Number of employees with each title
 1,549 employees are eligible to participate in the mentorship program.
 
 Table 3. Mentorship eligible employees.  (List of current employees born between Jan 1, 1952 and Dec 31, 1955)
+---
+
+###### Further Analysis
+
+Examing table #1 above highlights other questions as to why such a disparity exists between the Managers and other titles.  This could be as simple as the type of experience required for the role.  However, more importantly, a few additional queries would reveal if one of the retiring set of titles is a disproportionately large segment of the total population.  This would help identify potentioal resource gaps and provide time to start addressing those (if any) now.
 
