@@ -28,7 +28,7 @@ Lastly, a new table was requested that contained employee number, first and last
 1,549 employees are eligible to participate in the mentorship program.
 
 ![Mentors](https://github.com/TrentBrunson/Pewlett-Hackard-Analysis/blob/master/Mentorship.png)  
-Table 3. Mentorship eligible employees.  (List of current employees born between Jan 1, 1952 and Dec 31, 1955)
+Table 3. Mentorship eligible employees.  (List of current employees born in 1965)
 
 ---
 
@@ -36,11 +36,3 @@ Table 3. Mentorship eligible employees.  (List of current employees born between
 
 Examing table #1 above highlights other questions as to why such a disparity exists between the Managers and other titles.  This could be as simple as the type of experience required for the role.  However, more importantly, a few additional queries would reveal if one of the retiring set of titles is a disproportionately large segment of the total population.  This would help identify potentioal resource gaps and provide time to start addressing those (if any) now.
 
-Technical Analysis Deliverable 1: Number of Retiring Employees by Title. 
-
-You will create three new tables, 
--- one showing number of [titles] retiring, 
-
--- one showing number of employees with each title, 
-
-and one showing a list of current employees born between Jan. 1, 1952 and Dec. 31, 1955. New tables are exported as CSVs.
