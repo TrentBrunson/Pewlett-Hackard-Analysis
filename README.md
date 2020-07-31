@@ -13,13 +13,14 @@ Used PostgreSQL to build a database and complete analysis for the required tasks
 ### Summary
 ---
 ######
-90,398 employees were born between 1952-1955; however, the written request asked for those that were born in 1965 for mentorship programs.
+
+The request was to identify those born 1952-1955.  After joining the employees table with the titles table, the cleaned data found that 33,118 employees are retiring.  Based on this criteria, there are 7 titles retiring in this table as seen in the table below. 
 
 ![Titles Retiring](https://github.com/TrentBrunson/Pewlett-Hackard-Analysis/blob/master/Titles_retiring.png)
 
 Table 1. Number of titles retiring
 
-The request was to identify those born 1952-1955.  After joining the employees table with the titles table, the cleaned data found that 33,118 employees are retiring.
+Adiitionally, another table was requested to show the list of employees eligible for retirement, as seen below.
 
 ![Emp_by_title](https://github.com/TrentBrunson/Pewlett-Hackard-Analysis/blob/master/Retiring_Emp.png)  
 Table 2. Number of employees with each title
